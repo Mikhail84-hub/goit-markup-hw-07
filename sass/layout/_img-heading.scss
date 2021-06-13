@@ -1,0 +1,24 @@
+.img-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-text-cards);
+  margin-bottom: 50px;
+}
+.heading-list {
+  padding-top: 47px;
+  padding-bottom: 94px;
+}
+.img {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.pictures {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+}

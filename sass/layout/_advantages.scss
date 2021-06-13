@@ -1,0 +1,68 @@
+.advantages {
+  display: flex;
+  flex-wrap: wrap;
+}
+.advantages-heading-list {
+  padding-top: 94px;
+  padding-bottom: 47px;
+}
+.advantages-list {
+  width: 270px;
+}
+.pictures-advantages {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  background-color: var(--color-card-studio);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.pic {
+  width: 70px;
+  height: 70px;
+}
+.attachment-list {
+  position: relative;
+}
+.attachment {
+  font-family: var(--main-font);
+  font-weight: 700;
+  width: 370px;
+  height: 70px;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: rgba(47, 48, 58, 0.8);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advantages-list:not(:last-child) {
+  margin-right: 30px;
+}
+.advantages-list {
+  flex-basis: calc(100% / 4 - 30px);
+}
+.advantages-heading {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--color-text-cards);
+  margin-bottom: 10px;
+}
+.advantages-paragraph {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}

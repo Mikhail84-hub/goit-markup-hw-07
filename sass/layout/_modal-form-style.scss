@@ -1,0 +1,23 @@
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+.modal-name-win {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-text-cards);
+  margin: 0 auto;
+  margin-bottom: 12px;
+}
+.modal-form-field {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+  color: var(--secondary-color);
+}

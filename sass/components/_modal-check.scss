@@ -1,0 +1,36 @@
+.modal-form-check-desc::before {
+  display: block;
+  content: '';
+  width: 16px;
+  height: 16px;
+  border: 1px solid var(--logo-color);
+  cursor: pointer;
+  margin-right: 8px;
+}
+.modal-form-check-desc {
+  display: flex;
+  font-size: 12px;
+  align-items: center;
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color);
+}
+.modal-form-term:checked + .modal-form-check-desc::before {
+  background-image: url('../images/svg-html/svg-modal-btn/icon_check.svg');
+  background-color: var(--accent-color);
+  background-position: center;
+  border-radius: 2px;
+  border-color: var(--accent-color);
+
+  /* border: 4px var(--color-line); */
+}
+.modal-form-term:focus + .modal-form-check-desc::before {
+  box-shadow: 0 0 0 2px var(--footer-bg-color);
+}
+.modal-check-icon {
+  width: 16px;
+  height: 16px;
+}

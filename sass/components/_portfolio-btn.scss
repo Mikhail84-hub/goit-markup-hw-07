@@ -1,0 +1,26 @@
+.portfolio-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+.but-port:not(:last-child) {
+  margin-right: 8px;
+}
+.portfolio-button {
+  border-radius: 4px;
+}
+.but {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+  color: var(--color-text-cards);
+  border: none;
+  transition: background-color var(--time-animstions) var(--main-animations);
+}
+.but:hover,
+.but:focus {
+  color: var(--color-line);
+  background: var(--accent-color);
+}
