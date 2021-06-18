@@ -4,9 +4,12 @@
   margin-top: 94px;
   margin-bottom: 50px;
 }
-.but-port:not(:last-child) {
-  margin-right: 8px;
+.but-port {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
 }
+
 .portfolio-button {
   border-radius: 4px;
 }
@@ -18,9 +21,10 @@
   color: var(--color-text-cards);
   border: none;
   transition: background-color var(--time-animstions) var(--main-animations);
-}
-.but:hover,
-.but:focus {
-  color: var(--color-line);
-  background: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    color: var(--color-line);
+    background: var(--accent-color);
+  }
 }

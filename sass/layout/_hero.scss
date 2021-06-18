@@ -14,7 +14,7 @@
   background-size: cover;
 }
 
-.hero-heading {
+.heroes__hero-heading {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -36,8 +36,9 @@
   border-radius: 4px;
   transition: background-color var(--time-animstions) var(--main-animations);
   cursor: pointer;
-}
-.hero-btn:hover,
-.hero-btn:focus {
-  background: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    background: var(--accent-color);
+  }
 }

@@ -28,9 +28,10 @@
   top: 50%;
   left: 12px;
   transition: var(--time-animstions) var(--main-animations);
-}
-.modal-form-input:focus + .modal-input-icons {
-  fill: var(--accent-color);
+
+  .modal-form-input:focus + & {
+    fill: var(--accent-color);
+  }
 }
 
 .modal-user-masage {
@@ -41,12 +42,14 @@
   padding: 12px 16px;
   resize: none;
   transition: var(--time-animstions) var(--main-animations);
-}
-.modal-user-masage::placeholder {
-  color: rgba(117, 117, 117, 0.5);
-  text-transform: uppercase;
-}
-.modal-user-masage:focus {
-  outline: none;
-  border-color: var(--accent-color);
+
+  &::placeholder {
+    color: rgba(117, 117, 117, 0.5);
+    text-transform: uppercase;
+
+    &:focus {
+      outline: none;
+      border-color: var(--accent-color);
+    }
+  }
 }

@@ -13,15 +13,18 @@
   background-color: var(--color-line);
   color: #afb1b8;
   transition: background-color var(--time-animstions) var(--main-animations);
-}
-.social-list-link:hover,
-.social-list-link:focus {
-  background-color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    background-color: var(--accent-color);
+  }
 }
 
-.social-list-link:hover .social-list-icon,
-.social-list-link:focus .social-list-icon {
-  fill: var(--color-line);
+.social-list-icon {
+  .social-list-link:hover &,
+  .social-list-link:focus & {
+    fill: var(--color-line);
+  }
 }
 
 .social-list-icon {
