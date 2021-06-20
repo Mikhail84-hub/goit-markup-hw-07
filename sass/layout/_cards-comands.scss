@@ -9,14 +9,17 @@
   margin-top: -30px;
   margin-left: -30px;
 }
-.cards-list {
+.cards-comands__cards-list {
   flex-basis: calc(100% / 4 - 30px);
-  margin-top: 30px;
-  margin-left: 30px;
+
   /* border: 1px solid #ececec; */
 }
+.cards__comands {
+  margin-top: 30px;
+  margin-left: 30px;
+}
 
-.card-name-comand {
+.cards-comands__card-name-comand {
   text-align: center;
   padding-top: 30px;
   padding-left: 30px;
@@ -30,19 +33,32 @@
     0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px 0px rgba(0, 0, 0, 0.14);
 }
 
-.name-list {
+.cards-comands__name-list {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--color-text-cards);
 }
-.profession {
+.cards-comands__profession {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+}
+.cards-comands__profession-list {
   margin-top: 10px;
   margin-bottom: 30px;
+}
+.cards__name-section {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-text-cards);
+}
+.cards__name-section-list {
+  margin-bottom: 50px;
 }

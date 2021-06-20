@@ -1,9 +1,9 @@
-.social-icons-list {
+.social-icons {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.social-list-link {
+.social-icons__social-list-link {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,16 +20,16 @@
   }
 }
 
-.social-list-icon {
-  .social-list-link:hover &,
-  .social-list-link:focus & {
+.social-icons__social-list-icon {
+  .social-icons__social-list-link:hover &,
+  .social-icons__social-list-link:focus & {
     fill: var(--color-line);
   }
 }
 
-.social-list-icon {
+.social-icons__social-list-icon {
   fill: currentColor;
 }
-.social-list-icon {
+.social-icons__social-list-icon {
   transition: fill var(--time-animstions) var(--main-animations);
 }

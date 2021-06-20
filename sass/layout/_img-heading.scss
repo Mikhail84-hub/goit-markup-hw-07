@@ -1,24 +1,30 @@
-.img-heading {
+.heading__img-list {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--color-text-cards);
+}
+.heading__img-list-item {
   margin-bottom: 50px;
 }
-.heading-list {
+.heading {
   padding-top: 47px;
   padding-bottom: 94px;
 }
 .img {
   display: flex;
   flex-wrap: wrap;
+}
+.heading__img {
   margin-left: -30px;
   margin-top: -30px;
 }
-.pictures {
+.img__pictures {
   flex-basis: calc(100% / 3 - 30px);
+}
+.heading__pictures-list {
   margin-left: 30px;
   margin-top: 30px;
 }
