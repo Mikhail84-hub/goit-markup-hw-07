@@ -3,11 +3,11 @@
   align-items: center;
 }
 
-.header__nav-list {
+.nav-list {
   display: flex;
 }
 
-.header__nav-list .nav-list__nav-link.current {
+.nav-list .nav-list__nav-link.current {
   color: var(--accent-color);
 }
 .nav-list__nav-list-item {

@@ -41,4 +41,10 @@
 .close {
   width: 18px;
   height: 18px;
+  &:focus,
+  &:hover {
+    background: var(--color-line);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+  }
 }

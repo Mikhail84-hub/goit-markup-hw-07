@@ -126,6 +126,11 @@ body {
   background-color: var(--accent-color);
 }
 
+.social-icons-footer {
+  width: 20px;
+  height: 20px;
+}
+
 .color-icons-footer {
   fill: currentColor;
 }
@@ -237,6 +242,10 @@ body {
   box-shadow: 0 0 0 2px var(--footer-bg-color);
 }
 
+.modal-form-list {
+  color: var(--accent-color);
+}
+
 .modal-check-icon {
   width: 16px;
   height: 16px;
@@ -302,11 +311,11 @@ body {
   align-items: center;
 }
 
-.header__nav-list {
+.nav-list {
   display: flex;
 }
 
-.header__nav-list .nav-list__nav-link.current {
+.nav-list .nav-list__nav-link.current {
   color: var(--accent-color);
 }
 
@@ -605,19 +614,31 @@ body {
   margin-bottom: 50px;
 }
 
-.client {
+.client-section__client {
+  font-family: var(--main-font);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--color-text-cards);
+}
+
+.client__title {
   margin-top: 94px;
-  /* background-color: tomato; */
+  margin-bottom: 50px;
 }
 
 .clients-logo {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 94px;
-  /* background-color: teal; */
 }
 
-.clients-list-link {
+.clients-logo__clients-logo-style {
+  margin-bottom: 50px;
+}
+
+.clients-logo__clients-item {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -628,31 +649,31 @@ body {
   transition: border var(--time-animstions) var(--main-animations);
 }
 
-.clients-list-link:hover, .clients-list-link:focus {
+.clients-logo__clients-item:hover, .clients-logo__clients-item:focus {
   border: 1px solid var(--accent-color);
   outline: none;
 }
 
-.clients-icon-logo {
+.clients-logo__clients-icon-logo {
   width: 106px;
   height: 60px;
   fill: var(--icons-color);
 }
 
-.clients-icon-logo:focus, .clients-icon-logo:hover {
+.clients-logo__clients-icon-logo:focus, .clients-logo__clients-icon-logo:hover {
   fill: var(--accent-color);
 }
 
-.clients-icon-logo {
+.clients-logo__clients-icon-logo {
   transition: fill var(--time-animstions) var(--main-animations);
 }
 
-.clients-item:hover .clients-icon-logo,
-.clients-item:focus .clients-icon-logo {
+.clients-logo__clients-item:hover .clients-logo__clients-icon-logo,
+.clients-logo__clients-item:focus .clients-logo__clients-icon-logo {
   fill: var(--accent-color);
 }
 
-.clients-item:hover, .clients-item:focus {
+.clients-logo__clients-item:hover, .clients-logo__clients-item:focus {
   border: 1px solid var(--accent-color);
 }
 
@@ -783,6 +804,12 @@ body {
 .close {
   width: 18px;
   height: 18px;
+}
+
+.close:focus, .close:hover {
+  background: var(--color-line);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
 }
 
 .portfolio-header {
