@@ -3,18 +3,18 @@
   align-items: center;
 }
 
-.nav-list {
+.navigation__list {
   display: flex;
 }
 
-.nav-list .nav-list__nav-link.current {
+.navigation__list .navigation__link--current {
   color: var(--accent-color);
 }
-.nav-list__nav-list-item {
+.contacts__item {
   display: flex;
   align-items: center;
 }
-.nav-list__nav-list-item:not(:last-child) {
+.contacts__item:not(:last-child) {
   margin-right: 50px;
 }
 

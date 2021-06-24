@@ -12,7 +12,7 @@
   border-radius: 50%;
   background-color: var(--color-line);
   color: #afb1b8;
-  transition: background-color var(--time-animstions) var(--main-animations);
+  transition: var(--time-animstions) var(--main-animations);
 
   &:hover,
   &:focus {

@@ -1,4 +1,4 @@
-.background-color {
+.hero {
   background: var(--hero-bg-color);
   padding-top: 200px;
   padding-bottom: 200px;
@@ -14,7 +14,7 @@
   background-size: cover;
 }
 
-.heroes__hero-heading {
+.hero__title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -25,7 +25,7 @@
   margin: 0 auto;
 }
 
-.hero-btn {
+.hero__btn {
   background: var(--hero-btn-color);
   font-weight: 700;
   font-size: 16px;
